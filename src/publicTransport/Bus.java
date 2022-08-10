@@ -32,7 +32,7 @@ public class Bus {
         }
     }
 
-    //승객이 버스에 탔을 때
+    //승객이 버스에 탔을 때 
     public void set_passenger(int passenger) {
         //버스의 운행 상태가 차고지행일 때는 탑승 불가
         if (bus_state.equals("차고지행")) {
