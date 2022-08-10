@@ -125,7 +125,7 @@ public class Taxi {
         }
     }
 
-    //택시 속도 관련 메서드
+    //택시 속도 관련 메서드 
     public void set_speed(int speed) {
         taxi_now_speed += speed;
         if (taxi_now_oil >= 10) {
